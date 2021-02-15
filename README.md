@@ -1,16 +1,13 @@
-![Banner](static/banner.jpg)
+# BIZ logo
+
+[logo]: https://rest.bizcourier.eu/vectors/logo.svg =100x "Logo Title Text 2"
 
 # mongoose-paginate-v2
 
-[![npm 
-version](https://img.shields.io/npm/v/mongoose-paginate-v2.svg)](https://www.npmjs.com/package/mongoose-paginate-v2)
 [![contributions 
 welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexcodeup/mongoose-paginate-v2/issues)
-[![Downloads](https://img.shields.io/npm/dm/mongoose-paginate-v2.svg)](https://img.shields.io/npm/dm/mongoose-paginate-v2.svg)
 
 > A cursor based custom pagination library for [Mongoose](http://mongoosejs.com) with customizable labels.
-
-[![NPM](https://nodei.co/npm/mongoose-paginate-v2.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mongoose-paginate-v2)
 
 ## Why This Plugin
 
@@ -19,7 +16,7 @@ mongoose-paginate-v2 is a cursor based pagination library having a page wrapper.
 ## Installation
 
 ```sh
-npm install mongoose-paginate-v2
+npm install mongoose-paginate-v2 --registry https://npm.bizcourier.eu
 ```
 
 ## Usage
