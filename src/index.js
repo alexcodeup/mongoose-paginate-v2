@@ -234,13 +234,13 @@ function paginate(query, options, callback) {
 
       if (labelMeta) {
         result = {
-          [labelDocs]: docs,
           [labelMeta]: meta,
+          [labelDocs]: docs
         };
       } else {
         result = {
-          [labelDocs]: docs,
           ...meta,
+          [labelDocs]: docs
         };
       }
 
