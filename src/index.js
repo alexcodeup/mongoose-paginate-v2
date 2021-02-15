@@ -23,16 +23,17 @@
 
 const defaultOptions = {
   customLabels: {
-    totalDocs: 'totalDocs',
-    limit: 'limit',
+    totalDocs: 'countTotal',
     page: 'page',
-    totalPages: 'totalPages',
-    docs: 'docs',
+    totalPages: 'pageTotal',
+    docs: 'results',
     nextPage: 'nextPage',
     prevPage: 'prevPage',
-    pagingCounter: 'pagingCounter',
-    hasPrevPage: 'hasPrevPage',
-    hasNextPage: 'hasNextPage',
+    pagingCounter: false,
+    hasPrevPage: false,
+    hasNextPage: false,
+    limit: false,
+    offset: false,
     meta: null,
   },
   collation: {},
@@ -91,6 +92,7 @@ function paginate(query, options, callback) {
   // Labels
   const labelDocs = customLabels.docs;
   const labelLimit = customLabels.limit;
+  const labelOffset = customLabels.offset;
   const labelNextPage = customLabels.nextPage;
   const labelPage = customLabels.page;
   const labelPagingCounter = customLabels.pagingCounter;
@@ -182,7 +184,7 @@ function paginate(query, options, callback) {
       let result = {};
 
       if (typeof offset !== 'undefined') {
-        meta.offset = offset;
+        meta[labelOffset] = offset;
         page = Math.ceil((offset + 1) / limit);
       }
 
