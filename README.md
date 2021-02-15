@@ -1,6 +1,6 @@
 # BIZ logo
 
-[logo]: https://rest.bizcourier.eu/vectors/logo.svg =100x "Logo Title Text 2"
+<img src="https://rest.bizcourier.eu/vectors/logo.svg" alt="BIZ Logo" height="80"/>
 
 # mongoose-paginate-v2
 
