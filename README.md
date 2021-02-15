@@ -2,23 +2,19 @@
 
 # mongoose-paginate-v2
 
-[![npm version](https://img.shields.io/npm/v/mongoose-paginate-v2.svg)](https://www.npmjs.com/package/mongoose-paginate-v2)
-[![Build Status](https://travis-ci.com/aravindnc/mongoose-paginate-v2.svg?branch=master)](https://travis-ci.com/aravindnc/mongoose-paginate-v2)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/aravindnc/mongoose-paginate-v2/issues)
+[![npm 
+version](https://img.shields.io/npm/v/mongoose-paginate-v2.svg)](https://www.npmjs.com/package/mongoose-paginate-v2)
+[![contributions 
+welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexcodeup/mongoose-paginate-v2/issues)
 [![Downloads](https://img.shields.io/npm/dm/mongoose-paginate-v2.svg)](https://img.shields.io/npm/dm/mongoose-paginate-v2.svg)
-[![HitCount](http://hits.dwyl.io/aravindnc/mongoose-paginate-v2.svg)](http://hits.dwyl.io/aravindnc/mongoose-paginate-v2)
 
 > A cursor based custom pagination library for [Mongoose](http://mongoosejs.com) with customizable labels.
-
-If you are looking for aggregate query pagination, use this one [mongoose-aggregate-paginate-v2](https://github.com/aravindnc/mongoose-aggregate-paginate-v2)
 
 [![NPM](https://nodei.co/npm/mongoose-paginate-v2.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mongoose-paginate-v2)
 
 ## Why This Plugin
 
 mongoose-paginate-v2 is a cursor based pagination library having a page wrapper. The plugin can be used as both page as well as cursor based pagination. The main usage of the plugin is you can alter the return value keys directly in the query itself so that you don't need any extra code for transformation. The initial idea of this plugin is loosely based on mongoose-paginate package by github.com/edwardhotchkiss/. So this can be considered as an upgraded version of mongoose-paginate with much more options.
-
-The below documentation is not perfect. Feel free to contribute. :)
 
 ## Installation
 

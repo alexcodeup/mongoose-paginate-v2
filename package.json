@@ -1,6 +1,6 @@
 {
   "name": "mongoose-paginate-v2",
-  "version": "1.3.14",
+  "version": "1.4.2",
   "description": "A cursor based custom pagination library for Mongoose with customizable labels.",
   "main": "dist/index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aravindnc/mongoose-paginate-v2.git"
+    "url": "git+https://github.com/alexcodeup/mongoose-paginate-v2.git"
   },
   "keywords": [
     "mongoose",
@@ -44,15 +44,15 @@
     "paginator",
     "plugin"
   ],
-  "author": "Aravind NC <aravind_n_c@yahoo.co.in> (https://aravindnc.com)",
+  "author": "Alex Karavournarlis <alex@codeup.software> (https://codeup.software)",
   "contributors": [
     "Fernando López Guevara (fernando.lguevara@gmail.com)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aravindnc/mongoose-paginate-v2/issues"
+    "url": "https://github.com/alexcodeup/mongoose-paginate-v2/issues"
   },
-  "homepage": "https://github.com/aravindnc/mongoose-paginate-v2#readme",
+  "homepage": "https://github.com/alexcodeup/mongoose-paginate-v2#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",

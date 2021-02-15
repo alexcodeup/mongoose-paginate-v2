@@ -45,12 +45,12 @@
 
 ### Fixed
 
-- [#54](https://github.com/aravindnc/mongoose-paginate-v2/issues/54)
+- [#54](https://github.com/alexcodeup/mongoose-paginate-v2/issues/54)
 
-- [#65](https://github.com/aravindnc/mongoose-paginate-v2/issues/65)
+- [#65](https://github.com/alexcodeup/mongoose-paginate-v2/issues/65)
 
 ### Added
 
 - Get all docs if pagination is not enabled.
 - Support to determines the MongoDB nodes from which to read.
-- New option forceCountFn to support $near and $nearSphere (Ref: https://github.com/aravindnc/mongoose-paginate-v2#note)
+- New option forceCountFn to support $near and $nearSphere (Ref: https://github.com/alexcodeup/mongoose-paginate-v2#note)
