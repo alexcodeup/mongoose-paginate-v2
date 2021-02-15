@@ -1,6 +1,5 @@
-# BIZ logo
-
-<img src="https://rest.bizcourier.eu/vectors/logo.svg" alt="BIZ Logo" height="80"/>
+<img src="https://rest.bizcourier.eu/vectors/logo.svg" alt="BIZ Logo" height="70"/>
+<img src="https://www.pngkit.com/png/full/225-2254691_9kib-354x415-unnamed-mongodb-logo-svg.png" alt="MongoDB Logo" height="70"/>
 
 # mongoose-paginate-v2
 
